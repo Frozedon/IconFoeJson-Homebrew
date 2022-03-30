@@ -1,0 +1,27 @@
+{
+  "Name": "Oppressor",
+  "Inherits": "Enforcer",
+  "Type": "Template",
+  "UsesClass": "Heavy",
+  "Traits": [
+    {
+      "Name": "Shambling",
+      "Description": "Cannot dash."
+    }
+  ],
+  "Actions": [
+    {
+      "Name": "Grapple Claw",
+      "ActionCost": 1,
+      "Description": "If the priority threat is in range 4 of you, shove them 3 spaces toward you."
+    },
+    {
+      "Name": "Gatling Spray",
+      "ActionCost": 1,
+      "Recharge": 4,
+      "Tags": [ "true strike", "line 3" ],
+      "AreaEffect": "Fray damage.",
+      "Effect": "Choose a normal piece of terrain in the area and reduce its height by 1, to a minimum of 0."
+    }
+  ]
+}

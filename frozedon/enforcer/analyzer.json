@@ -1,0 +1,20 @@
+{
+  "Name": "Analyzer",
+  "Inherits": "Enforcer",
+  "Type": "Template",
+  "UsesClass": "Artillery",
+  "Traits": [
+    {
+      "Name": "Perfect Calculation",
+      "Description": "If a character who is currently the priority threat becomes the priority threat again, then that character becomes marked. The analyzer gains evasion against attacks from the marked character."
+    }
+  ],
+  "Interrupts": [
+    {
+      "Name": "Compute Defense",
+      "Count": 1,
+      "Trigger": "When hit by an attack.",
+      "Effect": "The attacker becomes dazed."
+    }
+  ]
+}

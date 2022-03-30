@@ -1,0 +1,23 @@
+{
+  "Name": "Surveyor",
+  "Inherits": "Enforcer",
+  "Type": "Template",
+  "UsesClass": "Artillery",
+  "Traits": [
+    {
+      "Name": "Far Sight",
+      "Description": "Increase range from height advantage by an additional +1 for each level of height."
+    },
+    {
+      "Name": "Shoot Down",
+      "Description": "The blocker's attacks gain +1 boon and bonus damage against the priority threat if they are on a higher elevation than the blocker."
+    }
+  ],
+  "Actions": [
+    {
+      "Name": "Create Blockade",
+      "ActionCost": 1,
+      "Description": "Summon a height 1 piece of terrain in an unoccupied space in range 5."
+    }
+  ]
+}

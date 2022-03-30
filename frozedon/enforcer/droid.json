@@ -1,0 +1,11 @@
+{
+  "Name": "Droid",
+  "Inherits": "Enforcer",
+  "Type": "Template",
+  "Traits": [
+    {
+      "Name": "Lock On",
+      "Description": "Gains +1 Boon on attacks targeting the priority threat."
+    }
+  ]
+}

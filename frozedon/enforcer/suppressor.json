@@ -1,0 +1,20 @@
+{
+  "Name": "Suppressor",
+  "Inherits": "Enforcer",
+  "Type": "Template",
+  "UsesClass": "Leader",
+  "Traits": [
+    {
+      "Name": "Bog Down",
+      "Description": "When the priority threat ends their turn, they become slow."
+    }
+  ],
+  "Actions": [
+    {
+      "Name": "Scan Weaknesses",
+      "ActionCost": 1,
+      "Recharge": 6,
+      "Description": "A character in range 4 becomes electrified and branded."
+    }
+  ]
+}
