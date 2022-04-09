@@ -1,0 +1,18 @@
+{
+  "Name": "Grim Revolver",
+  "Inherits": "Gundead",
+  "Type": "Template",
+  "UsesClass": "Skirmisher",
+  "AddHPPercent": -0.25,
+  "Traits": [
+    {
+      "Name": "One With Death",
+      "Description": "Gains defiance at the start of its turn unless there is a foe adjacent to them.",
+      "DescriptionNonessential": "-25% starting HP."
+    },
+    {
+      "Name": "Shadow Jump",
+      "Description": "When the Grim Revolver takes a dash, they instead teleport the same number of spaces."
+    }
+  ]
+}

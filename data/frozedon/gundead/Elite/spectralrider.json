@@ -1,0 +1,56 @@
+{
+  "Name": "Spectral Rider",
+  "Inherits": [ "Gundead", "Elite" ],
+  "Type": "UniqueFoe",
+  "Group": "Gundead",
+  "UsesClass": "Skirmisher",
+  "Chapter": 1,
+  "Vitality": 8,
+  "HPMultiplier": 8,
+  "Speed": 5,
+  "Dash": 5,
+  "Defense": 12,
+  "Armor": 0,
+  "FrayDamage": 3,
+  "DamageDie": 10,
+  "Traits": [
+    {
+      "Name": "Skirmisher",
+      "Description": "Can move diagonally and dash action is full speed."
+    },
+    {
+      "Name": "Dodge",
+      "Description": "Immune to damage from successful saves, area effects, or missed attacks."
+    },
+    {
+      "Name": "Spectral Steed",
+      "Description": "The Spectral Rider is mounted upon a gundead steed making them size 2 and gain phasing while moving. When bloodied, they lose this trait for the rest of combat."
+    }
+  ],
+  "Actions": [
+    {
+      "Name": "Mobile Shot",
+      "ActionCost": 1,
+      "Tags": [ "ranged attack 3" ],
+      "Hit": "[D]+[fray] and becomes slow.",
+      "Miss": "[fray].",
+      "Effect": "The Spectral Rider may dash 1 before and after the attack."
+    },
+    {
+      "Name": "Ethereal Charge",
+      "ActionCost": 1,
+      "Description": "Mark out a line area effect equal to your speed, then dash to the end, phasing through characters. Each foe it passes through takes [fray] damage and is frostbitten. Frostbitten characters instead take [D]."
+    },
+    {
+      "Name": "Corrupted Lasso",
+      "ActionCost": 1,
+      "Description": "A foe in range 4 must save or be shoved 3 spaces towards the spectral rider and inflicted with frostbite."
+    },
+    {
+      "Name": "Hail of Bullets",
+      "ActionCost": 2,
+      "Recharge": 6,
+      "Description": "Target a close blast 2 area. Shoot 5 bullets at foes in the area. Each bullet deals [fray] damage and ignores cover. Each foe must be hit at least once before being hit by another bullet."
+    }
+  ]
+}

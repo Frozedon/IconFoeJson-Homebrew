@@ -1,0 +1,16 @@
+{
+  "Name": "Submachine Ghoul",
+  "Inherits": "Gundead",
+  "Type": "Template",
+  "UsesClass": "Skirmisher",
+  "Traits": [
+    {
+      "Name": "Digging Claws",
+      "Description": "Attacks gain pierce if the target has no adjacent allies."
+    },
+    {
+      "Name": "Corrupted Strikes",
+      "Description": "Attacks inflicts blight to the attack target."
+    }
+  ]
+}

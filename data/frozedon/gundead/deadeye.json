@@ -1,0 +1,24 @@
+{
+  "Name": "Deadeye",
+  "Inherits": "Gundead",
+  "Type": "Template",
+  "UsesClass": "Artillery",
+  "Chapter": 2,
+  "Traits": [
+    {
+      "Name": "Hidden Nest",
+      "Description": "At the start of combat do not place Deadeyes on the map. When a Deadeye takes their first turn, they appear anywhere that is at least 4 spaces away from a hostile character and gain stealth."
+    }
+  ],
+  "Actions": [
+    {
+      "Name": "Marked For Death",
+      "ActionCost": 2,
+      "Recharge": 5,
+      "Tags": [ "ranged attack 6", "mark" ],
+      "Hit": "2[D]+[fray].",
+      "Miss": "[fray].",
+      "Mark": "The target becomes blighted and marked. They lose all vigor and cannot gain vigor while marked. If the deadeye hits the marked character with an attack, they deal bonus damage."
+    }
+  ]
+}

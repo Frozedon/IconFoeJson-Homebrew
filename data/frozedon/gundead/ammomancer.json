@@ -1,0 +1,20 @@
+{
+  "Name": "Ammomancer",
+  "Inherits": "Gundead",
+  "Type": "Template",
+  "UsesClass": "Leader",
+  "Chapter": 2,
+  "Traits": [
+    {
+      "Name": "Eldritch Proof",
+      "Description": "The Ammomancer has aura 2. Allies in the aura have resistance to damage."
+    }
+  ],
+  "Actions": [
+    {
+      "Name": "Reload ",
+      "ActionCost": 1,
+      "Description": "An ally in range 2 recharges all recharge abilities."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "Misfire Beast",
+  "Inherits": "Gundead",
+  "Type": "Template",
+  "UsesClass": "Heavy",
+  "Speed": 5,
+  "Dash": 3,
+  "Traits": [
+    {
+      "Name": "Large",
+      "Description": "Size 2."
+    },
+    {
+      "Name": "Ride Like The Wind",
+      "Description": "Speed 5.",
+      "Nonessential": true
+    },
+    {
+      "Name": "Mounted Combat",
+      "Description": "An ally smaller than the Misfire Beast can use an action to mount or dismount it. While mounted, the ally’s speed is reduced to 0, moves when the Misfire Beast moves, and gains cover. If the ally is reduced to 0 hp, stunned, or shoved, they are forcibly dismounted and are placed into an adjacent space."
+    },
+    {
+      "Name": "Wild Beast",
+      "Description": "While no character is mounted on the Misfire Beast, it has hatred of the closest character."
+    }
+  ]
+}
